@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Flask",
+      "type": "shell",
+      "command": "venv\\Scripts\\activate && python app.py",
+      "options": { "cwd": "${workspaceFolder}/backend-flask" }
+    },
+    {
+      "label": "Run Express",
+      "type": "shell",
+      "command": "node index.js",
+      "options": { "cwd": "${workspaceFolder}/frontend-express" }
+    }
+  ]
+}
